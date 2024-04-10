@@ -22,8 +22,10 @@
 The Portolio contains:
 
 1. Domain Description
-2. Defined Functionalities
-3. Suggestions and Improvements - Takeaway from Algorithmic Problem Solving
+   
+3. Defined Functionalities
+   
+5. Suggestions and Improvements - Takeaway from Algorithmic Problem Solving
 
 
 ## Domain Description:
@@ -31,6 +33,32 @@ The Portolio contains:
 Spotify is a free service that offers millions of songs and podcasts, playlists, and recommendations based on personal preferences. It also helps discover new music and podcasts suiting one's musical taste.
 
 ## Defined Functionalities:
+1. Search for a song or playlist and play.
 
-
+2. Shuffle a playlist.
    
+3. Add or remove a song from queue.
+
+4. Loop a song.
+
+5. Block/ mark a song as 'not interested'.
+
+6. Set sleep timer. Automatically stop the player after scheduled time passes.
+
+7. Recommend and play songs based on previous play history.
+
+8. Save favourite songs as a new playlist.
+
+9. Allow user to curate public or private playlist.
+
+10. Create mixes for user based on their listening history.
+
+11. Create and listen to podcasts.
+
+12. Generate a curated and personalized Spotify Wrapped at the end of every year based on user activity for the past year.
+
+13. Curate a playlist and radio for every verified artist.
+
+14. Display artist records like information, monthly listeners and region with highest listening.
+
+15. Connect with payment apps for Premium Purchases.
