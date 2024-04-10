@@ -41,7 +41,7 @@ Spotify is a free service that offers millions of songs and podcasts, playlists,
 
 4. Loop a song.
 
-5. Block/ mark a song as 'not interested'.
+5. Block / mark a song as 'not interested'.
 
 6. Set sleep timer. Automatically stop the player after scheduled time passes.
 
