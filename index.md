@@ -15,7 +15,7 @@
 
 * * *
 
-> Better Spotify, Better Listening
+> Better Spotify, Better Listening!
 
 
 #### Note:
