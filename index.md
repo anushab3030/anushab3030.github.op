@@ -57,6 +57,9 @@ Spotify is a free service that offers millions of songs and podcasts, playlists,
 
 12. Generate a curated and personalized Spotify Wrapped at the end of every year based on user activity for the past year.
 
+
+[About](about.md)
+
 13. Curate a playlist and radio for every verified artist.
 
 14. Display artist records like information, monthly listeners and region with highest listening.
