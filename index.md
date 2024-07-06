@@ -33,9 +33,9 @@ The Portolio contains:
 Spotify is a free service that offers millions of songs and podcasts, playlists, and recommendations based on personal preferences. It also helps discover new music and podcasts suiting one's musical taste.
 
 ## Defined Functionalities:
-1. [Search for a song or playlist and play.](/pages/search_for_song.md)
+1. [Search for a song or playlist and play](/pages/search_for_song.md).
 
-2. Shuffle a playlist.
+2. [Shuffle a playlist](/pages/shuffle_playlist).
    
 3. Add or remove a song from queue.
 
