@@ -37,7 +37,7 @@ Spotify is a free service that offers millions of songs and podcasts, playlists,
 
 2. [Shuffle a playlist](/pages/shuffle_playlist.md).
    
-3. Add or remove a song from queue.
+3. [Add or remove a song from queue](/pages/insert_remove_queue.md).
 
 4. Loop a song.
 
