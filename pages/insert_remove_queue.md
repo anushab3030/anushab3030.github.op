@@ -7,6 +7,9 @@ Insetion of a song into a queue always adds a song after the current song is pla
 ## Data Structure used: Doubly Linked List
 Doubly linked list is the most appropriate data structure that can be easy manipulated for a music queue. <br>
 Even if the entire queue is manually rearranged, this process can be easily handled by doubly linked list. 
+
+![Doubly Linked List](../images/dll.png)
+
 ## Time Complexity
 1. Time complexity for insertion at next position: O(1)
 2. Time complexity to delete at any known position: O(1)
