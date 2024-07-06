@@ -8,6 +8,8 @@ Spotify recommends the next song based on the metadata of the songs. This metada
 The songs can be represented as a graph, with the songs as nodes. The number of metrics that match between two songs can be the weight of the edge connecting them. <br>
 Best-First Search can be implemented to find the best list of songs, based on their weight. The nodes will be sorted in descending order for best-first search.
 
+![bfs](../images/bfs.png)
+
 # Time Complexity:
 The time complexity for best-first search is O(n*log n), where 'n' is the number of nodes in the graph, i.e., number of songs.
 
