@@ -45,7 +45,7 @@ Spotify is a free service that offers millions of songs and podcasts, playlists,
 
 6. Set sleep timer. Automatically stop the player after scheduled time passes.
 
-7. Recommend and play songs based on previous play history.
+7. [Recommend and play songs based on previous play history](/pages/recommend_song.md).
 
 8. Save favourite songs as a new playlist.
 
