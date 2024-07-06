@@ -13,7 +13,7 @@ After several user feedbacks, the currently adapted algorithm takes songs from t
 ### Data Structure: Min-Heap
 1. The songs in the playlist can be stored as a heap. Songs of each artist can be stored in one min-heap, with the value being the priority of a song. Spotify can shuffle songs by accessing the root of each artist's heap, and accessing the song with the highest priority. After a song is played, it is removed from the heap, and heapify is performed to maintain the min heap property.
 ### Design Diagram
-![Design Diagram for min-heap]
+![Design Diagram for min-heap](../images/min-heap.png)
 ### Time Complexity
 1. The time taken to insert songs into a min-heap for shuffling is O(log n), where 'n' is number of songs of a particular artist. <br>
 2. The time taken to access highest priority song id O(1). <br>
@@ -27,4 +27,7 @@ The space complexity will be O(n1 + n2 + ... + nm), where m is the number of art
 
 The code for min-heap can be found [here](https://github.com/BigWheel92/Min-Heap.git).
 
+# References
+1. [How to Shuffle Songs?: Spotify R&D](https://engineering.atspotify.com/2014/02/how-to-shuffle-songs/)
+2. [The Art of Shuffling Music](https://keyj.emphy.de/balanced-shuffle/)
 
