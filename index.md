@@ -59,9 +59,10 @@ Spotify is a free service that offers millions of songs and podcasts, playlists,
 
 13. Curate a playlist and radio for every verified artist.
 
-14. Display artist records like information, monthly listeners and region with highest listening.
+14. [Display artist records like information, monthly listeners and region with highest listening](/pages/artist_info.md).
 
 15. Connect with payment apps for Premium Purchases.
 
 16. [Connect with friends](/pages/friends.md)
-17. 
+17. [Create event/concert recommendations for users](/pages/concert_recs.md).
+18. 
