@@ -51,7 +51,7 @@ Spotify is a free service that offers millions of songs and podcasts, playlists,
 
 9. Allow user to curate public or private playlist.
 
-10. Create mixes for user based on their listening history.
+10. [Create mixes for user based on their listening history](/pages/create_a_mix.md).
 
 11. Create and listen to podcasts.
 
