@@ -1,4 +1,6 @@
-Spotify can store information about the artists on the application for easier statistical understanding of the artist's music data.
+Spotify can store information about the artists on the application for easier statistical understanding of the artist's music data. 
+<br>
+The data can include the artist name, number of active listeners, albums, regions with highest number of plays, popular releases, etc.
 # Market Benefits
 1.  Users can discover the artist of their choice faster.
 2.  As the number of artists grow, user interaction with the app grows proportionally.
