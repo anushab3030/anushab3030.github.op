@@ -6,7 +6,7 @@ Each Spotify user receives a unique compilation of their top songs, artists, gen
 1. Spotify has around 800 million songs and 615 million users. Data collecting and modelling becomes a task.
 # Algorithm
 This is a range query problem.
-## Algorithm uses: Segment Trees
+## Algorithm uses: Segment Trees<a href="#ref2">[2]</a>
 1. The top 5 played songs, artists and genres for a particular year can be easily accessed by a segment tree.
 2. The same data can be collected for data in ranges of months. Top play counts for songs for every month can be queried.
 3. The combined data can be collectively used as Spotify Wrapped.
@@ -15,5 +15,6 @@ This is a range query problem.
 2. Time Complexity for range queries in segment tree is O(log n), where 'n' is the number of nodes in the segment tree.
 ## Space Complexity
 1. The Space Complexity of segment tree is O(4*n)≈O(n), where 'n' is the number of songs or number of artists listened to, or number of genres listened to.
-
-<a id="ref1"></a>1. [How does spotify wrapped work?](https://hightouch.com/blog/how-spotify-wrapped-works)
+# References
+1. <a id="ref1"></a> [How does spotify wrapped work?](https://hightouch.com/blog/how-spotify-wrapped-works)
+2. <a id="ref2"></a> Wang, Lei, and Xiaodong Wang. "A simple and space efficient segment tree implementation." MethodsX 6 (2019): 500-512.
