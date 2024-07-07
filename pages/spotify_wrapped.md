@@ -10,6 +10,10 @@ This is a range query problem.
 1. The top 5 played songs, artists and genres for a particular year can be easily accessed by a segment tree.
 2. The same data can be collected for data in ranges of months. Top play counts for songs for every month can be queried.
 3. The combined data can be collectively used as Spotify Wrapped.
+![](../images/seg1.png)
+![](../images/seg2.png)
+![](../images/wrapp.png)
+
 ## Time Complexity
 1. Time Complexity for building a segment tree is O(n), where 'n' is the number of nodes.
 2. Time Complexity for range queries in segment tree is O(log n), where 'n' is the number of nodes in the segment tree.
