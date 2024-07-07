@@ -55,7 +55,7 @@ Spotify is a free service that offers millions of songs and podcasts, playlists,
 
 11. Create and listen to podcasts.
 
-12. Generate a curated and personalized Spotify Wrapped at the end of every year based on user activity for the past year.
+12. [Generate a curated and personalized Spotify Wrapped at the end of every year based on user activity for the past year](/pages/spotify_wrapped.md).
 
 13. Curate a playlist and radio for every verified artist.
 
