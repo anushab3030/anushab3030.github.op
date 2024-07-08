@@ -39,30 +39,16 @@ Spotify is a free service that offers millions of songs and podcasts, playlists,
    
 3. [Add or remove a song from queue](/pages/insert_remove_queue.md).
 
-4. Loop a song.
+4. [Recommend and play songs based on previous play history](/pages/recommend_song.md).
 
-5. Block / mark a song as 'not interested'.
+5. [Create mixes for user based on their listening history](/pages/create_a_mix.md).
 
-6. Set sleep timer. Automatically stop the player after scheduled time passes.
+6. [Generate a curated and personalized Spotify Wrapped at the end of every year based on user activity for the past year](/pages/spotify_wrapped.md).
 
-7. [Recommend and play songs based on previous play history](/pages/recommend_song.md).
+7. [Display artist records like information, monthly listeners and region with highest listening](/pages/artist_info.md).
 
-8. Save favourite songs as a new playlist.
-
-9. Allow user to curate public or private playlist.
-
-10. [Create mixes for user based on their listening history](/pages/create_a_mix.md).
-
-11. Create and listen to podcasts.
-
-12. [Generate a curated and personalized Spotify Wrapped at the end of every year based on user activity for the past year](/pages/spotify_wrapped.md).
-
-13. Curate a playlist and radio for every verified artist.
-
-14. [Display artist records like information, monthly listeners and region with highest listening](/pages/artist_info.md).
-
-15. Connect with payment apps for Premium Purchases.
-
-16. [Connect with friends](/pages/friends.md)
-17. [Create event/concert recommendations for users](/pages/concert_recs.md).
-18. 
+8. [Connect with friends](/pages/friends.md)
+   
+9. [Create event/concert recommendations for users](/pages/concert_recs.md).
+    
+10. [Create a playlist with currently trending songs](/pages/trending.md)
