@@ -1,5 +1,5 @@
 Each Spotify user receives a unique compilation of their top songs, artists, genres, total minutes listened, etc every December. The Wrapped contains favorite songs, albums, and artists, minutes listened, favorite playlists and listening personality of the user. <a href="#ref1">[1]</a>
-# Market Trends
+# Market Benefits
 1. Wrapped results can be easily shared on social media platforms like Instagram, Twitter, and Facebook, sparking marketting advertisements for Spotify.
 2. Users will be more likely to explore the applications for additional content and features.
 # Challenges
