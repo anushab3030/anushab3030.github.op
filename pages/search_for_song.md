@@ -29,4 +29,4 @@ The space complexity of Radix Trie is O(n*p), where 'n' denotes the number of no
 
 # References
 1. <a id="radix"></a>Leis, Viktor, Alfons Kemper, and Thomas Neumann. "The adaptive radix tree: ARTful indexing for main-memory databases." 2013 IEEE 29th International Conference on Data Engineering (ICDE). IEEE, 2013.
-2. <a id="radix2"></a>https://seekstorm.com/blog/pruning-radix-trie/
+2. <a id="radix2"></a>[Pruning Radix Trie](https://seekstorm.com/blog/pruning-radix-trie/)
