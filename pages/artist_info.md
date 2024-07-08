@@ -9,7 +9,7 @@ The data can include the artist name, number of active listeners, albums, region
 1.  When a new artist or listener count update occurs, insert or update the artist in the AVL tree, with the number of active listeners being the key.
 2.  Searching for an artist becomes faster and easier.
 3.  AVL trees automatically balance after insertions and deletions, ensuring that operations remain efficient.
-4.  The code for AVL tree can be found [here](../codes/avl.py).
+4.  The code for AVL tree can be found [here](../codes/avl.cpp).
 
 ## Time Complexity
 Time complexity for insertion, searching and deletion of an artist is O(log n), where 'n' is the number of artists.
