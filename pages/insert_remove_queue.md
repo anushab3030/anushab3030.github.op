@@ -10,7 +10,7 @@ Insetion of a song into a queue always adds a song after the current song is pla
 
 ![Doubly Linked List](../images/dll.png)
 <br>
-3. The code for double linked list can be found [here](../code/double_linked_list.c).
+3. The code for double linked list can be found [here](../codes/double_linked_list.c).
 
 ## Time Complexity
 1. Time complexity for insertion at next position: O(1)
