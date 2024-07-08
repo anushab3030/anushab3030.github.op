@@ -15,9 +15,10 @@ Spotify has a database of 82 million songs, due to the rise in songs being relea
 # Data Structure and Implementation
 ## Data Structure used: Pruning Radix Trie
 1. A song can be searched with minimum number of letters, with the auto-complete feature enabling a better suggestion. 
-2. Pruning Radix Tries can be used for efficient searching in Spotify, initially using the cached data of users. <br>
-3. Pruning radix trees work 1000 times faster than a radix trie/patricia trie. We are interested  only in the top-k most relevant songs. 4. Pruning radix tree can achieve massive reduction of lookup time for top-k results, by pruning the non-promising branches. <br>
-5. The code for Pruning Radix Trie can be found [here](../codes/prunigRadixTrie.java)
+2. Pruning Radix Tries can be used for efficient searching in Spotify, initially using the cached data of users. 
+3. Pruning radix trees work 1000 times faster than a radix trie/patricia trie. We are interested  only in the top-k most relevant songs.
+4. Pruning radix tree can achieve massive reduction of lookup time for top-k results, by pruning the non-promising branches.
+5. The code for Pruning Radix Trie can be found [here](../codes/prunigRadixTrie.java).
 ## Time Complexity
 For searching, Radix trie <a href="#radix">[1]</a> has a time complexity of O(k), where 'k' denotes number of letters entered for searching. Pruning Radix tree reduces this time by upto a factor of 1000. <a href="#radix2">[2]</a> <br>
 ![Time complexity analysis for searching of pruning radix tree with a radix trie](../images/radixtrie_benchmark.png)
