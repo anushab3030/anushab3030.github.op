@@ -11,7 +11,7 @@ When we select shuffle, Spotify takes the songs in our current playlist and crea
    <br>
 After several user feedbacks, the currently adapted algorithm takes songs from the selected playlist, categorizes them by artist, and ensures that songs from the same artist are spread out. This ensures we won’t hear another from the same artist until about 20 to 30 percent through the shuffled playlist. <a href="#S2">[2]</a>
 
-# Algorithm
+# Algorithm and Implementation
 ### Data Structure: Min-Heap
 1. The songs in the playlist can be stored as a heap. Songs of each artist can be stored in one min-heap, with the value being the priority of a song.
 2. Spotify can shuffle songs by accessing the root of each artist's heap, and accessing the song with the highest priority.
@@ -23,7 +23,7 @@ After several user feedbacks, the currently adapted algorithm takes songs from t
 1. The time taken to insert songs into a min-heap for shuffling is O(log n), where 'n' is number of songs of a particular artist. <br>
 2. The time taken to access highest priority song id O(1). <br>
 3. The time taken to delete a song after it is played is O(log n), where 'n' is number of songs of a particular artist. <br>
-Total time complexity = O(log n) + O(1) + O(log n) ≈ O(log n)
+Total time complexity = O(log n) + O(1) + O(log n) ≈ O(log n).
 
 ### Space Complexity
 The space complexity will be O(n1 + n2 + ... + nm), where m is the number of artists, and ni is the song for 'i'-th artist.
