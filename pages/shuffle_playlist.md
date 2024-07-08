@@ -7,11 +7,16 @@ When we select shuffle, Spotify takes the songs in our current playlist and crea
 
 # Challenges 
 1. Shuffling of playlists based on Fisher Yates shuffle played a few songs from the same artist right after each other. <br> <br>
-After several user feedbacks, the currently adapted algorithm takes songs from the selected playlist, categorizes them by artist, and ensures that songs from the same artist are spread out. This ensures we won’t hear another from the same artist until about 20 to 30 percent through the shuffled playlist.
+2. Sometimes, the random shuffling will create a possibility of hearing the same type of music ( music from same artist, same album, same genre, etc) <a href="#S1">[1]</a>
+   <br>
+After several user feedbacks, the currently adapted algorithm takes songs from the selected playlist, categorizes them by artist, and ensures that songs from the same artist are spread out. This ensures we won’t hear another from the same artist until about 20 to 30 percent through the shuffled playlist. <a href="#S2">[2]</a>
 
 # Algorithm
 ### Data Structure: Min-Heap
-1. The songs in the playlist can be stored as a heap. Songs of each artist can be stored in one min-heap, with the value being the priority of a song. Spotify can shuffle songs by accessing the root of each artist's heap, and accessing the song with the highest priority. After a song is played, it is removed from the heap, and heapify is performed to maintain the min heap property.
+1. The songs in the playlist can be stored as a heap. Songs of each artist can be stored in one min-heap, with the value being the priority of a song.
+2. Spotify can shuffle songs by accessing the root of each artist's heap, and accessing the song with the highest priority.
+3. After a song is played, it is removed from the heap, and heapify is performed to maintain the min heap property.
+4. The code for min-heap can be found [here](../codes/min_heap.cpp).
 ### Design Diagram
 ![Design Diagram for min-heap](../images/min-heap.png)
 ### Time Complexity
@@ -25,9 +30,8 @@ The space complexity will be O(n1 + n2 + ... + nm), where m is the number of art
 
 <br>
 
-The code for min-heap can be found [here](https://github.com/BigWheel92/Min-Heap.git).
 
 # References
-1. [How to Shuffle Songs?: Spotify R&D](https://engineering.atspotify.com/2014/02/how-to-shuffle-songs/)
-2. [The Art of Shuffling Music](https://keyj.emphy.de/balanced-shuffle/)
+1. <a id="S1"></a> [How to Shuffle Songs?: Spotify R&D](https://engineering.atspotify.com/2014/02/how-to-shuffle-songs/)
+2. <a id="S2"></a> [The Art of Shuffling Music](https://keyj.emphy.de/balanced-shuffle/)
 
