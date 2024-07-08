@@ -4,7 +4,7 @@ Each Spotify user receives a unique compilation of their top songs, artists, gen
 2. Users will be more likely to explore the applications for additional content and features.
 # Challenges
 1. Spotify has around 800 million songs and 615 million users. Data collecting and modelling becomes a task.
-# Algorithm
+# Algorithm and Implementation
 This is a range query problem.
 ## Algorithm uses: Segment Trees<a href="#ref2">[2]</a>
 1. The top 5 played songs, artists and genres for a particular year can be easily accessed by a segment tree.
