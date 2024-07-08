@@ -7,7 +7,7 @@ Spotify recommends the next song based on the metadata of the songs. This metada
 # Algorithm
 ## Algorithm suggested: Best First Search ( Informed Search)
 1. The songs can be represented as a graph, with the songs as nodes. The number of metrics that match between two songs can be the weight of the edge connecting them. <br>
-2. Best-First Search can be implemented to find the best list of songs, based on their weight. The nodes will be sorted in descending order for best-first search.
+2. Best-First Search can be implemented to find the best list of songs, based on their weight. The nodes will be sorted in descending order for best-first search. <br>
 ![bfs](../images/bfs.png)
 <br>
 3. The code for best first search can be found [here](../codes/best_first.java). 
