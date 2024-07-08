@@ -39,7 +39,9 @@ Spotify generated €13.24 billion in revenue in 2023, reflecting a 12.9% year-o
 
 # Objectives of Portfolio
 1. Define unique business cases in the Spotify Music Streaming application.
+   
 2. Identify market benefits and challenges, if any, for the business cases.
+   
 3. Propose an algorithm which can be implemented for the business case, with its time and space complexities.
 
 # Defined Functionalities:
