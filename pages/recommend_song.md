@@ -10,7 +10,7 @@ Spotify recommends the next song based on the metadata of the songs. This metada
 2. Best-First Search can be implemented to find the best list of songs, based on their weight. The nodes will be sorted in descending order for best-first search.
 ![bfs](../images/bfs.png)
 <br>
-3. The code for best first search can be found [here](../codes/best_first.java).
+3. The code for best first search can be found [here](../codes/best_first.java). 
 
 # Time Complexity:
 The time complexity for best-first search is O(n*log n), where 'n' is the number of nodes in the graph, i.e., number of songs.
