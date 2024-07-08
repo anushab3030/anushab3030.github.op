@@ -13,6 +13,8 @@ This is a range query problem.
 ![](../images/seg1.png)
 ![](../images/seg2.png)
 ![](../images/wrapp.png)
+<br>
+4. The code for segment tree can be found [here](../codes/segmentTree.cpp).
 
 ## Time Complexity
 1. Time Complexity for building a segment tree is O(n), where 'n' is the number of nodes.
