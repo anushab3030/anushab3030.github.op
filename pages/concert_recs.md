@@ -1,5 +1,5 @@
 Spotify can extend its functionality to recommending the most suitable events and concerts to the user. Offering  event recommendations can differentiate Spotify from competitors, attracting more users and enhancimg its market strategies.
-# Algorithm
+# Algorithm and Implementation
 ## Searching Technique identified: A* algorithm <a href="#a*">[1]</a>
 ![astar](../images/astar.png)
 1. The A* search algorithm will consider concerts as nodes in a graph, where edges represent relationships based on artist popularity, venue capacity, and ticket availability.
