@@ -5,7 +5,7 @@ Spotify regularly creates playlists that feature top songs and trending artists.
 1. Featuring trending songs and artists helps in promoting new releases, benefiting both Spotify and the artists.
 2. User interaction increases as the application stays close to the real-time trends.
 
-# Data Structure
+# Data Structure and Implementation
 ## Data Structure used: Max-heap
 1. Songs are inserted into a binary tree, based on a key value, which could be a metric of how many times the song has been played.
 2. The tree can be heapified into a max-heap, with the highest played song as its root.
