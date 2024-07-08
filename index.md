@@ -23,16 +23,21 @@ The Portolio contains:
 
 1. Domain Description
    
-3. Defined Functionalities
+3. Objectives
    
-5. Suggestions and Improvements - Takeaway from Algorithmic Problem Solving
+5. Defined Functionalities
 
 
-## Domain Description:
+# Domain Description:
 
-Spotify is a free service that offers millions of songs and podcasts, playlists, and recommendations based on personal preferences. It also helps discover new music and podcasts suiting one's musical taste.
+Spotify is a Swedish audio streaming and media service provider founded on 23 April 2006 by Daniel Ek and Martin Lorentzon. It is one of the largest music streaming service providers, with over 615 million monthly active users, including 239 million paying subscribers, as of March 2024. Spotify is listed (through a Luxembourg City-domiciled holding company, Spotify Technology S.A.) on the New York Stock Exchange in the form of American depositary receipts.
 
-## Defined Functionalities:
+Spotify offers digital copyright restricted recorded audio content, including more than 100 million songs and six million podcast titles, from record labels and media companies. As a freemium service, basic features are free with advertisements and limited control, while additional features, such as offline listening and commercial-free listening, are offered via paid subscriptions. Users can search for music based on artist, album, or genre, and can create, edit, and share playlists.
+
+### Market Analysis
+Spotify generated €13.24 billion in revenue in 2023, reflecting a 12.9% year-on-year increase. However, despite this revenue growth, Spotify has not reported a net profit, posting a €532 million loss in 2022 due to high royalty fees and operating expenses. The platform boasts 551 million monthly users, with 220 million of them being subscribers. <a href="#1">[1]</a>. Spotify's strategy includes integrating with social media platforms like TikTok and Instagram to boost user engagement. The platform is also focusing on mental health and wellness content, offering curated playlists for mindfulness and well-being​. <a href="#2">[2]</a>.
+
+# Defined Functionalities:
 1. [Search for a song or playlist and play](/pages/search_for_song.md).
 
 2. [Shuffle a playlist](/pages/shuffle_playlist.md).
@@ -52,3 +57,7 @@ Spotify is a free service that offers millions of songs and podcasts, playlists,
 9. [Create event/concert recommendations for users](/pages/concert_recs.md).
     
 10. [Create a playlist with currently trending songs](/pages/trending.md)
+
+# References
+1. <a id="1"></a> [Spotify Statistic](https://www.businessofapps.com/data/spotify-statistics/)
+2. <a id="2"></a> [Spotify PESTEL Analysis]([https://www.businessofapps.com/data/spotify-statistics/](https://www.blog-trends.com/pestel-analysis-of-spotify/#google_vignette)
