@@ -10,6 +10,7 @@ Spotify regularly creates playlists that feature top songs and trending artists.
 1. Songs are inserted into a binary tree, based on a key value, which could be a metric of how many times the song has been played.
 2. The tree can be heapified into a max-heap, with the highest played song as its root.
 3. As new songs and data comes in, the heap can be updated dynamically.
+4. The code for max-heap can be found [here](../codes/max_heap.py)
 
 ## Time Complexity
 1. The Time Complexity for insertion into a heap is O( log n), where 'n' is the number of songs.
