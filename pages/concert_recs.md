@@ -6,6 +6,7 @@ Spotify can extend its functionality to recommending the most suitable events an
 2. Nodes (concerts) are evaluated using a heuristic function that can be based on how often the user listens to the artist, location of the concert from user, genre of the concert, and the previous listening activity of the user.
 3. f=heuristic value+combined cost
 4. A* algorithm is adapted to all potential events (nodes) from the user, to find the best events in order. The event with the lowest 'f' will be the best event.
+5. The code for A* algorithm can be founf [here](../codes/a_star.cpp)
 # Time Complexity
 1. The time complexity of A* algorithm is O(b^d), where 'b' is the average number of edges to a node, and 'd' is the number of nodes in the resulting path.
 2.  The better the heuristic function is, the better is the time complexity.
