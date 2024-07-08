@@ -1,9 +1,9 @@
 Users can connect with their friends to know what their friends are playing, including favorite artists, songs, and playlists. The users can also share music with friends while creating collaborative playlists on Spotify. Users can learn about new artists, genres and songs of their liking.
 # Algorithm:
-## Algorithm used: Breadth First Search <a href="#bfs1">[1]</a>, <a href="#bfs2">[2]</a>
+## Algorithm identified: Breadth First Search <a href="#bfs1">[1]</a>, <a href="#bfs2">[2]</a>
 1. A social graph where nodes represent users and edges represent friendships from the users to others.
 2. Using BFS to find the shortest path between users, Spotify can enable features like friend recommendations or collaborative playlists.
-3. The code for breadth first search can be found [here](../codes/bfs.py)
+3. The code for breadth first search can be found [here](../codes/bfs.py).
 ## Time Complexity:
 The time complexity for traversing through the graph is O(V+E), where 'V' is the number of users in the graph, and 'E' is the number of edges.
 ## Space Complexity
