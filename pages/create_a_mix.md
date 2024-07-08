@@ -5,10 +5,10 @@ Spotify creates mixes based on the frequently preferred songs of the user, artis
 3. Can increase daily and monthly listeners of an artist and increase streams.
 4. Viral songs from social media can help increase user engagement.
 # Algorithm
-## Data Structure used: Skip List[^2]
+## Data Structure identified: Skip List[^2]
 1. The songs that the user clicks to play, and the songs similar to the played song [(click here to know more)](recommend_song.md) are pushed into a skip list.
 2. Skip list is efficient in this task, as the playlist is frequently and dynamically updated.
-3. The code for skip list can be found [here](../codes/skiplist.cpp)
+3. The code for skip list can be found [here](../codes/skiplist.cpp).
  <br>
 ![skiplist](../images/skiplist.png)
 
