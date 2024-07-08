@@ -13,15 +13,18 @@ Efficient searching of cached songs based on recently played, liked and listenin
 Spotify has a database of 82 million songs, due to the rise in songs being released on a daily basis. The users must be able to search their song in seconds.
 <br>
 <br>
-A song can be searched with minimum number of letters, with the auto-complete feature enabling a better suggestion. <br>
-Pruning Radix Tries can be used for efficient searching in Spotify, initially using the cached data of users. <br>
-Pruning radix trees work 1000 times faster than a radix trie/patricia trie. We are interested  only in the top-k most relevant songs. Pruning radix tree can achieve massive reduction of lookup time for top-k results, by pruning the non-promising branches. <br>
+# Data Structure and Implementation
+## Data Structure used: Pruning Radix Trie
+1. A song can be searched with minimum number of letters, with the auto-complete feature enabling a better suggestion. 
+2. Pruning Radix Tries can be used for efficient searching in Spotify, initially using the cached data of users. <br>
+3. Pruning radix trees work 1000 times faster than a radix trie/patricia trie. We are interested  only in the top-k most relevant songs. 4. Pruning radix tree can achieve massive reduction of lookup time for top-k results, by pruning the non-promising branches. <br>
+## Time Complexity
 For searching, Radix trie has a time complexity of O(k), where 'k' denotes number of letters entered for searching. Pruning Radix tree reduces this time by upto a factor of 1000. <br>
 ![Time complexity analysis for searching of pruning radix tree with a radix trie](../images/radixtrie_benchmark.png)
 <br>
 [Image source](https://seekstorm.com/blog/pruning-radix-trie/)
 <br>
-
+## Space Complexity
 The space complexity of Radix Trie is O(n*p), where 'n' denotes the number of nodes, and 'p' denotes the pointers in each node.
 <br>
-The code for Radix Trie can be found [here](https://github.com/benldr/JPruningRadixTrie.git)
+The code for Radix Trie can be found [here](../codes/pruningRadixTrie.java)
