@@ -59,11 +59,11 @@ Spotify generated €13.24 billion in revenue in 2023, reflecting a 12.9% year-o
 
 7. [Display artist records like information, monthly listeners and region with highest listening](/pages/artist_info.md).
 
-8. [Connect with friends](/pages/friends.md)
+8. [Connect with friends](/pages/friends.md).
    
 9. [Create event/concert recommendations for users](/pages/concert_recs.md).
     
-10. [Create a playlist with currently trending songs](/pages/trending.md)
+10. [Create a playlist with currently trending songs](/pages/trending.md).
 
 # References
 1. <a id="1"></a> [Spotify](https://en.wikipedia.org/wiki/Spotify)
