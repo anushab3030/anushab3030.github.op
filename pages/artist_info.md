@@ -5,7 +5,7 @@ The data can include the artist name, number of active listeners, albums, region
 1.  Users can discover the artist of their choice faster.
 2.  As the number of artists grow, user interaction with the app grows proportionally.
 # Data Structures and implementation
-## Data Structure used: AVL Tree <a href="#avl">[1]</a>
+## Data Structure identified: AVL Tree <a href="#avl">[1]</a>
 1.  When a new artist or listener count update occurs, insert or update the artist in the AVL tree, with the number of active listeners being the key.
 2.  Searching for an artist becomes faster and easier.
 3.  AVL trees automatically balance after insertions and deletions, ensuring that operations remain efficient.
