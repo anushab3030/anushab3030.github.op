@@ -14,7 +14,7 @@ Each Spotify user receives a unique compilation of their top songs, artists, gen
 ![](../images/seg2.png)
 ![](../images/wrapp.png)
 <br>
-4. The code for segment tree can be found [here](../codes/segmentTree.cpp).
+5. The code for segment tree can be found [here](../codes/segmentTree.cpp).
 
 ## Time Complexity
 1. Time Complexity for building a segment tree is O(n), where 'n' is the number of nodes.
